@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bootstrap Visualization Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!--left nav link-->
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.html">LATITUDE
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+                <!--Right nav link-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="temp.html">Max Temperature</a>
+                            </li>
+                            <li>
+                                <a href="humid.html">Humidity</a>
+                            </li>
+                            <li>
+                                <a href="clouds.html">Cloudiness</a>
+                            </li>
+                            <li>
+                                <a href="wind.html">Wind Speed</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="comparison.html">Comparison</a>
+                    </li>
+                    <li>
+                        <a href="data.html">Data</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!--Main Grid-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="main-box">
+                    <h1 class="main-pg-header">Max Temperature</h1>
+                    <hr>
+                    <div class="summary txt">
+                        <img id="result-img" src="visualizations/Img_Temp.png", class = "img img-responsive", alt="Temp vs Latitude">
+                        <p>
+                            The temperature increases for cities situated near the equator (0 degree latitude).  
+                            The highest temperatures are presented in cities between the Tropic of Cancer and Tropic of Capricorn.  
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="side-box">
+                    <h2 class="main-pg-subheader">Visualizations</h2>
+                    <hr>
+                    <div class="sidebar">
+                        <a href="temp.html">
+                            <img id="side-img1" src="visualizations/Img_Temp.png", class = "img img-responsive", alt="Temp vs. Latitude Scatterplt">
+                        </a>
+                        <a href="humid.html">
+                            <img id="side-img2" src="visualizations/Img_Humid.png", class = "img img-responsive", alt="Humidity vs. Latitude Scatterplt">
+                        </a>
+                        <a href="clouds.html">
+                            <img id="side-img3" src="visualizations/Img_Clouds.png", class = "img img-responsive", alt="Cloudiness vs. Latitude Scatterplt">
+                        </a>
+                        <a href="windspd.html">
+                            <img id="side-img4" src="visualizations/Img_Windspd.png", class = "img img-responsive", alt="Wind Speed vs. Latitude Scatterplt">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
