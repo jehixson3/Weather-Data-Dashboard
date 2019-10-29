@@ -9,12 +9,12 @@ h2 {
 	.navbar{
 	    max-height: 57px; 
 	}
-	.navigation .navbar-brand{
-	    color: white; 
+	.navigation .container-fluid .navbar-brand{
+	    color: deeppink; 
 	    margin-left: 30px; 
-	    padding: inherit; 
+	    padding: 10; 
 	    font-weight: bold; 
-	    background-color: #0BADA6;
+	    background-color: grey;
 	    font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 	.navbar{
@@ -44,8 +44,10 @@ h2 {
 	}
 	/* Images */
 	img{
+            border: 2px solid #ddd;
+            border-radius: 5px;
 	    width:100% !important;
-	    height:100% !important;
+	    height:auto% !important;
 	}
 	.active, .panel:hover{
 	    border-color: black;
@@ -69,16 +71,21 @@ h2 {
 	p{
 	 color: #6D8092;
 	 font-family: Arial, Helvetica, sans-serif;
-	 font-size: 18px; 
+	 font-size: 16px;
+	 padding: 25px; 
+	}
+	/*Container */
+	.container {
+	padding: 10px;
+	background-color = white;
 	}
 	/* Box Class */
 	.box {
 	    margin-top: 60px; 
 	    margin-bottom: 62px; 
-	    padding: 10px 20px 15px; 
+	    padding: 10px 40px 15px; 
 	    color: black;
-	    background-color: white; 
-	
+	    background-color: white;  
 
 	  }
 	/* Table */
@@ -138,6 +145,3 @@ h2 {
 
 
 }
-
-
-/*TEMPERATURE, HUMIDITY, CLOUDINESS, WIND SPEED IND. PAGE IMAGE*/
