@@ -107,7 +107,8 @@ h3{
 	/* Table */
 	  .table{
 	    font-size: 15px; 
-	    border-top-color: white !important; 
+	    border-top-color: white !important;
+	    align-content: center; 
 	}
 	/* Footer */
 	footer{
