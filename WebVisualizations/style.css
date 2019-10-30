@@ -1,6 +1,10 @@
 h2 {
   color: deeppink;
 }
+h3{
+  color: blue;
+  align-content: center;
+}
 /* Body */
 	body{
 	    background-color: #EDEDED; 
@@ -19,7 +23,7 @@ h2 {
 	}
 	.navbar{
 	    background-color: white; 
-	    font-size: 20px; 
+	    font-size: 25px; 
 	}
 	.active, .dropdown-menu .dropdown-item:active a:hover{
 	    background-color:#E7E7E7!important; 
@@ -47,7 +51,7 @@ h2 {
             border: 2px solid #ddd;
             border-radius: 5px;
 	    width:100% !important;
-	    height:auto% !important;
+	    height:Auto% !important;
 	}
 	.active, .panel:hover{
 	    border-color: black;
@@ -71,16 +75,33 @@ h2 {
 	}
 	/*Container */
 	.container {
-	padding: 10px;
-	background-color = grey;
+	   padding: 10px;
+	   background: white;
+           margin-top: 50px;
+           margin-left: 100px;
+           margin-right: 20px;
+           margin-bottom: 20px;
+           align-content: center; 
 	}
 	/* Box Class */
 	.box {
-	    margin-top: 60px; 
-	    margin-bottom: 62px; 
-	    padding: 10px 40px 15px; 
-	    color: black;
-	    background-color: white;  
+	   padding: 10px:
+	   background: white;
+           margin-top: 5px;
+           margin-left: 5px;
+           margin-right: 5px;
+           margin-bottom: 20px;
+           align-content: center;   
+
+	  }
+	.panel {
+	   padding: 10px:
+	   background: white;
+           margin-top: 5px;
+           margin-left: 5px;
+           margin-right: 5px;
+           margin-bottom: 20px;
+           align-content: center;   
 
 	  }
 	/* Table */
